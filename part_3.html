@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part3</title>
+    <link rel="styleshet" href="part3.css">
+    <style>
+        #block1 {
+float: left;
+display: block;
+width: 180px;
+margin: 2px;
+}
+.container{
+    display: block;
+    width: 780px;
+    margin-left: 100px;
+}
+.g{
+    width: 909px;
+    margin-left: 100px;
+    background-color:#E1E6E9;
+}
+
+#block2 {
+float: left;
+display: block;
+width: 180px;
+
+margin: 2px;
+}
+.bt{
+background-color: red;
+color: white;
+float: left;
+margin: 5px;
+}
+    </style>
+  
+    
+</head>
+<body>
+   <form class="g"><fieldset>
+    <div class="container">
+        <div class="title"><h1>Business Growth & Transformation</h1></div>
+        <p>Are you ready to make it happen with your small business? Print this form or submit it at the <br> end and enjoy the benefit of a Free 30 Business Transformation Coashing Review. </p>
+        <form action="">
+        <div class="user-details">
+        <div class="input-box">
+        <span class="details">Full name <span style="color: red;">*</span></span>
+        <input type="text" class="text" id="email"  required>
+        
+        </div>
+        <div class="input-box">
+        <span class="details">Email Address <span style="color: red;">*</span></span>
+        <input type="text" class="text" id="email"  required>
+        </div>
+            <div class="gender-details">
+                <form action="handler.php">
+                <p><b>Have you seen our Webinar: <span style="color: red;">*</span></b></p>
+                <p><input name="dzen" type="checkbox" value="Yes"> Yes</p>
+                <p><input name="dzen" type="checkbox" value="No"> No</p>
+                <p><input name="dzen" type="checkbox" value="Whatw" checked> What webinar? Please send me details</p>
+                </form>
+            </div>
+<div class="input-box">
+    <span class="details">Web address:</span>
+    <input type="text" class="text" id="email"   required>
+    
+
+</div>
+<div class="input-box">
+    <span class="details">Company name: <span style="color: red;">*</span></span>
+    <input type="text" class="text" id="email"   required>
+    <p id="demo"></p>
+</div>
+<div class="input-box">
+    <span class="details">Area of Business:</span>
+    <input type="text" class="text" id="email"   required>
+ </div>
+ <div class="chouse">
+    <form action="handler.php">
+        <p><b>Are you a new Business?: <span style="color: red;">*</span></b></p>
+        <p><input name="dzen" type="radio" value="Yes"> Yes                        
+        <input name="dzen" type="radio" value="No"> No                   
+        <input name="dzen" type="radio" value="Not yet"> Not yet</p>
+      </form>
+    </div>
+    <div class="input-box">
+        <span class="details">Date of incorparation:</span>
+        <input type="text" class="text" id="email"   required>
+    </div>
+    <div class="input-box">
+        <span class="details">Location:</span>
+        <input type="text" class="text" id="email"  required>
+    </div><br>
+</form>
+</fieldset></form>
+</div><br><br> <form class="g">
+    <div class="container">
+        <div class="input-box">
+            <span class="details">Size of team: <span style="color: red;">*</span></span>
+            <input type="text" class="text" id="email" placeholder="ex:23"  required>
+        </div>
+        <div>
+            <p>Please deacribe what your business does (will do), in 10 words or less:<span style="color: red;">*</span> </p>
+            <textarea name="comment" cols="40" rows="3"></textarea></p>
+        </div>
+        <div>
+            <p>Please describe the style and personality of your business in just 5 words: <span style="color: red;">*</span> </p>
+            <textarea name="comment" cols="40" rows="3"></textarea></p>
+        </div>
+        <p><input type="button" value="Next" onclick="isEmail()"></p>
+        </fieldset></form>
+</div> <br> <form class="g">
+<div class="container">
+    <div>  
+    <form action="handler.php">
+        <p><b>Do you have a Marketing Plan in place?: <span style="color: red;">*</span></b></p>
+        <p><input name="dzen" type="radio" value="Yes"> Yes                        
+        <input name="dzen" type="radio" value="No"> No                   
+        <input name="dzen" type="radio" value="Not yet"> Not yet</p>
+      </form>
+    </div>
+    <div>
+        <form action="handler.php">
+            <p><b>Do you set a regular Marketing Budget?: <span style="color: red;">*</span></b></p>
+            <p><input name="dzen" type="radio" value="Yes"> Yes                        
+            <input name="dzen" type="radio" value="No"> No                   
+            <input name="dzen" type="radio" value="Not yet"> Not Sure</p>
+          </form>
+        </div>
+        <div>
+            <form action="handler.php">
+                <p><b>Do you have invested in Marketing before?: <span style="color: red;">*</span></b></p>
+                <p><input name="dzen" type="radio" value="Yes"> Yes                        
+                <input name="dzen" type="radio" value="No"> No                   
+                <input name="dzen" type="radio" value="Not yet"> Not Sure</p>
+              </form>
+            </div>
+            <div>
+                <form action="handler.php">
+                    <p><b>I have clear objectives to market my business effectively: <span style="color: red;">*</span></b></p>
+                    <p><input name="dzen" type="radio" value="Yes"> Yes                        
+                    <input name="dzen" type="radio" value="No"> No                   
+                    <input name="dzen" type="radio" value="Not yet"> Not yet</p>
+                  </form>
+                </div>
+                <div>
+                    <form action="handler.php">
+                        <p><b>My odjectives are set annuallybased on market trends <span style="color: red;">*</span></b></p>
+                        <p><input name="dzen" type="radio" value="Yes"> Yes                        
+                        <input name="dzen" type="radio" value="No"> No                   
+                        <input name="dzen" type="radio" value="Not yet"> Don't know</p>
+                      </form>
+                    </div>
+</div></form> <br> <form class="g">
+<div class="container">
+    <div>
+        <p>What will be your full Marketing Budget this year?:<span style="color: red;">*</span> </p>
+        <textarea name="comment" cols="40" rows="3"></textarea></p>
+    </div>
+    <div>
+        <form action="handler.php">
+            <p><b>What does your current Marketing Mix include?: <span style="color: red;">*</span></b></p>
+            <div id="block1">
+                <p><input name="#" type="checkbox" > Twitter</p>
+                <p><input name="#" type="checkbox"> Website</p>
+                <p><input name="#" type="checkbox"  > Clothing</p>
+                <p><input name="#" type="checkbox" > Email Signatures</p>
+                <p><input name="#" type="checkbox"> E-shots</p>
+                <p><input name="#" type="checkbox"  > A-boards</p>
+                <p><input name="#" type="checkbox" > Window Graphics</p>
+                <p><input name="#" type="checkbox"> Radio</p>
+        </div>
+<div id="block1">
+            <p><input name="#" type="checkbox"  > Facebook</p>
+            <p><input name="#" type="checkbox" > Radio</p>
+            <p><input name="#" type="checkbox"> Pens & Promo</p>
+            <p><input name="#" type="checkbox"  > Loyalty Cards</p>
+            <p><input name="#" type="checkbox" > Teleseles</p>
+            <p><input name="#" type="checkbox"> Roller Banners</p>
+            <p><input name="#" type="checkbox"  > Internal Fil-out</p>
+            <p><input name="#" type="checkbox" > TV</p>
+</div>
+<div id="block2">
+            <p><input name="#" type="checkbox"> Linkealn</p>
+            <p><input name="#" type="checkbox"  > Flyers</p>
+            <p><input name="#" type="checkbox" > Letterheads</p>
+            <p><input name="#" type="checkbox" > Brochures</p>
+            <p><input name="#" type="checkbox"> Packaging</p>
+            <p><input name="#" type="checkbox"  > Booklets</p>
+            <p><input name="#" type="checkbox" > Ceiling Dangles</p>
+            <p><input name="#" type="checkbox"> Internet Banner Ad</p>
+</div>
+<div >
+    <div>
+            <p><input name="#" type="checkbox"  > Pinterest</p>
+            <p><input name="#" type="checkbox" > Buiness Cards</p>
+            <p><input name="#" type="checkbox"> Stationary</p>
+            <p><input name="#" type="checkbox"  > SMS</p>
+            <p><input name="#" type="checkbox" > Posters</p>
+            <p><input name="#" type="checkbox"> Stickers</p>
+            <p><input name="#" type="checkbox"  > Vehicle</p>
+            <p><input name="#" type="checkbox"  > Mail Merge</p>
+        </div>
+            </form>
+
+    </div>
+    </div>
+   <br> 
+  
+    <div>
+        <form action="handler.php">
+            <p><b>What you will add to your Marketing Mix over the next 6-12 months?: <span style="color: red;">*</span></b></p>
+            <div id="block1">
+                <p><input name="#" type="checkbox" > Twitter</p>
+                <p><input name="#" type="checkbox"> Website</p>
+                <p><input name="#" type="checkbox"  > Clothing</p>
+                <p><input name="#" type="checkbox" > Email Signatures</p>
+                <p><input name="#" type="checkbox"> E-shots</p>
+                <p><input name="#" type="checkbox"  > A-boards</p>
+                <p><input name="#" type="checkbox" > Window Graphics</p>
+                <p><input name="#" type="checkbox"> Radio</p>
+        </div>
+<div id="block2">
+            <p><input name="#" type="checkbox"  > Facebook</p>
+            <p><input name="#" type="checkbox" > Radio</p>
+            <p><input name="#" type="checkbox"> Pens & Promo</p>
+            <p><input name="#" type="checkbox"  > Loyalty Cards</p>
+            <p><input name="#" type="checkbox" > Teleseles</p>
+            <p><input name="#" type="checkbox"> Roller Banners</p>
+            <p><input name="#" type="checkbox"  > Internal Fil-out</p>
+            <p><input name="#" type="checkbox" > TV</p>
+</div>
+<div id="block1">
+            <p><input name="#" type="checkbox"> Linkealn</p>
+            <p><input name="#" type="checkbox"  > Flyers</p>
+            <p><input name="#" type="checkbox" > Letterheads</p>
+            <p><input name="#" type="checkbox" > Brochures</p>
+            <p><input name="#" type="checkbox"> Packaging</p>
+            <p><input name="#" type="checkbox"  > Booklets</p>
+            <p><input name="#" type="checkbox" > Ceiling Dangles</p>
+            <p><input name="#" type="checkbox"> Internet Banner Ad</p>
+</div>
+<div >
+            <p><input name="#" type="checkbox"  > Pinterest</p>
+            <p><input name="#" type="checkbox" > Buiness Cards</p>
+            <p><input name="#" type="checkbox"> Stationary</p>
+            <p><input name="#" type="checkbox"  > SMS</p>
+            <p><input name="#" type="checkbox" > Posters</p>
+            <p><input name="#" type="checkbox"> Stickers</p>
+            <p><input name="#" type="checkbox"  > Vehicle</p>
+            <p><input name="#" type="checkbox"  > Mail Merge</p>
+        </form></form>
+        </div> 
+           
+
+
+</div><br><br>
+<div class="container">
+<form class="g">
+    <div >   
+            <div id="end">
+            
+                <button class="bt" type="submit" form="nameform" value="Submit" >Submit this Audit</button>
+                <p id="demo"></p>
+                <button class="bt" onclick="window.print()">Print Form</button>
+            
+            </div>
+    
+    </div></form>
+</div>
+
+ 
+</body>
+</html>
