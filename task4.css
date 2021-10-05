@@ -1,0 +1,47 @@
+div:nth-of-type(1){
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+div:nth-of-type(2){
+    margin-top: 40px;
+    width: 30%;
+    border: 2px solid green;
+    padding: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+justify-content: space-between;
+align-items:center;
+flex-wrap: wrap;
+vertical-align: bottom;
+}
+#wde{
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 50px;
+    text-align: justify;
+    display: flex;
+justify-content: space-between;
+align-items:center;
+flex-wrap: wrap;
+vertical-align: bottom;
+  
+}
+
+p:last-of-type{
+    float: left; 
+}
+#im{
+    float: right; 
+    margin: 0 0 5px 5px;
+    width: 100px;
+    height: 100px;
+}
+#in{
+    float: left; 
+    margin: 0 0 5px 5px;
+    width: 100px;
+    height: 100px;
+}

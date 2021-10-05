@@ -1,0 +1,77 @@
+a:link{
+    color: #ff0015;
+}
+a:visited{
+    color: #0051ff;
+}
+:not(.www, h2,h4,p){
+    text-decoration-line: none;}
+a:hover {
+color: blue;
+text-decoration: underline;
+}
+*.www , * #text {
+    background-color: rgb(255, 251, 0);
+}
+*.eee,* .www {
+    background-color: chocolate;
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    text-decoration: overline;
+}
+h4{
+    text-decoration: line-through;
+}
+.a
+{color: chocolate;
+    border: 1px solid rgb(255, 0, 0); /* Параметры границы */
+    width: 100px;
+    height: 100px;
+} 
+.b{
+    border: 1px dotted rgb(0, 68, 255); /* Параметры границы */
+    width: 300px;
+    height: 100px;  
+}
+.c{
+    border: 1px dashed rgb(0, 105, 9); /* Параметры границы */
+    width: 100px;
+    height: 100px;
+}
+.d{
+    border-bottom: 1px solid #FF0000;
+     border-left: 1px solid black;
+     border-right:1px solid green ;
+     border-top: 1px solid rgb(0, 10, 153);
+     border-radius: 10px;
+
+    width: 300px;
+    height: 100px;  
+}
+.e{
+    border: 1px dashed green;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 3px;
+
+   width: 200px;
+   height: 200px;  
+}
+.f{
+    border: 1px dotted green;
+    border-top-left-radius: 1px;
+    border-radius: 20px;
+
+   width: 200px;
+   height: 200px;  
+}
+.g{
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 100%; 
+    width: 100px;
+    height: 100px;
+}

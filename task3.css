@@ -1,0 +1,19 @@
+div:nth-of-type(1){
+    border: solid 1px red;
+    background-color: red;
+    width: 250px;
+    height: 100px;
+}
+body{
+    background: url(images/pat.jpg);
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+ .im{
+        float: right; 
+       width: 300px;
+    height: 300px;
+    }

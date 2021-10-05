@@ -1,0 +1,112 @@
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none ;
+
+}
+#menu1 a:link{
+    color: blue;
+    text-decoration-line: none;
+}
+#menu1 a:visited{
+    color: blue;
+    text-decoration-line: none;
+}
+#menu1 a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
+#menu2 a:visited{
+    color: blue;
+    line-height: 80%;
+}
+#menu2 a{
+    text-decoration:none ;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    font: normal;
+    border: 2px solid blue;
+    width: 30%;
+
+}
+#menu2 a:link{
+    color: blue;
+}
+#menu2 a:hover{
+    line-height: 20px;
+    font-weight: bold;
+}
+#menu3 a{
+    text-decoration:none ;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    font: normal;
+    border: 2px solid #484848;
+    width: 30%;
+    background-color: #484848;
+    color: white;
+    font-weight: bold;
+}
+#menu3 a:hover{
+    background-color: white;
+    color: #484848;
+    list-style-type: none;
+
+}
+#menu4 a{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 5px;
+    border: 2px solid blue;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+#menu4{
+    display: flex;
+}
+.clearfix{
+    clear: both;
+}
+nav:nth-of-type(4){
+    display: inline-block;
+}
+#menu4  a:hover{
+    background-color: #484848;
+    color: white;
+    border: 2px solid black;
+}
+#menu4 .active{
+    background-color: #484848;
+    color: aliceblue;
+    border: 2px solid black;
+    border-color: #484848;
+}
+#menu-nav{
+    width: 100%;
+    background-color: #28c2ff;
+    height: 43px;
+    font-family: Arial;
+
+}
+#menu-nav a{
+    border: 2px solid #28c2ff;
+color: white;
+}
+#menu-nav a:link a:visited{
+line-height: 35px;
+}
+#menu-nav li{
+    display: inline-block;
+    padding: 10px;
+   margin-left: 15px;
+   
+}
+#menu-nav a:hover{
+    background-color: #3066be;
+ border: 1px solid #3066be;
+ padding: 9px;
+}

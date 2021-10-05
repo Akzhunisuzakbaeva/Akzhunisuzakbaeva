@@ -1,0 +1,71 @@
+ h1{
+color: green;
+text-align: center; 
+font-weight: 20px Verdana, normal;
+}
+ p{
+     color: red;
+     font-size: 15px;/*It is size font*/
+     font-family: Arial;/*It is for change font text*/
+     text-indent: 30px;/*line spacing it is for intercal between text*/
+ text-decoration: underline;
+    text-decoration-color: red;
+    }
+    p:nth-of-type(odd){
+        text-align: right;
+    }
+    p:nth-of-type(2){
+        text-decoration: none;
+    }
+    p:nth-of-type(even){
+text-align: left;
+    }
+    p:not(:first-child){
+    font-style: italic;/*it is style text our style is italic*/
+
+}
+th{
+    writing-mode:vertical-rl;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+text-align: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+ h2{
+     color: lightblue;
+     width: 300px;
+     font-style: italic;
+     text-align: right;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+
+ }
+ h3{
+     color: orange;
+     font-family: sans-serif;
+    }
+#table{
+    width: 400px;
+    height: 200px;
+    display: table;
+}
+td{
+    font-weight: bold;
+}
+h1{
+    font-weight: none;
+}
+th, h1,h2 {
+    font-weight: none;
+}
+body {
+	background: #eee; 
+    text-align: center;
+}
+p[HTML]{
+    color: blueviolet;
+}
+
+ 
